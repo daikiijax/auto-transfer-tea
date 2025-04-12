@@ -11,16 +11,3 @@ Bot Python untuk mengirim token native TEA di jaringan TEA Sepolia secara otomat
 
 ## Instalasi
 ```bash
-pip install -r requirements.txt
-Konfigurasi
-Buat file .env dengan isi:
-
-Salin kode
-SENDER_ADDRESS=0xAlamatWallet
-PRIVATE_KEY=privatekey
-TEA_SEPOLIA_RPC=https://rpc-kamu
-RECEIVER_ADDRESSES=0xReceiver1,0xReceiver2
-Menjalankan
-bash
-Salin kode
-python auto_tea_transfer.py
